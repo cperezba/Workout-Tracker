@@ -1,14 +1,13 @@
 const router = require('express').Router();
 
-router.use('/', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
-        res.render("public/index.html")
-
-
+        res.status(200).render("public/index.html");
     }
 
     catch (err) {
         res.status(500).json(err);
+        console.log(err);
     }
 })
 
