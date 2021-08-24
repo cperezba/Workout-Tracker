@@ -1,8 +1,9 @@
 const router = require('express').Router();
+const path = require("path");
 
 router.get('/', async (req, res) => {
     try {
-        res.status(200).render("public/index.html");
+        res.sendFile(path.join(__dirname, "../../public/html/index.html"));
     }
 
     catch (err) {
