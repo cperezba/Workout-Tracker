@@ -39,6 +39,8 @@ No installation necessary! To access the application, click here.
 
 The application should be fairly intuitive! Click on the "New Workout" to add an exercise routine and clickk "Complete" when finished. Click on the Dashboard for an overview of one's exercise routine. 
 
+<br/>
+
 ![WorkoutTracker-MainPage](assets/WorkoutTracker-Main.PNG)
 
 ---
